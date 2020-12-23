@@ -10,7 +10,7 @@ import UIKit
 
 protocol ___VARIABLE_sceneName:identifier___RouterProtocol {
 
-    weak var viewController: ___FILEBASENAMEASIDENTIFIER___ViewController? { get }
+    var viewController: ___VARIABLE_sceneName:identifier___ViewController? { get }
 
     func navigateToSomewhere()
 }
