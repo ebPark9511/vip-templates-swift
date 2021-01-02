@@ -19,7 +19,6 @@ final class ___VARIABLE_sceneName:identifier___Router {
 
     weak var viewController: ___VARIABLE_sceneName:identifier___ViewController?
 
-
     // MARK: - Initializers
 
     init(viewController: ___VARIABLE_sceneName:identifier___ViewController?) {
@@ -28,11 +27,9 @@ final class ___VARIABLE_sceneName:identifier___Router {
     }
 }
 
-
 // MARK: - ___VARIABLE_sceneName:identifier___RouterProtocol
 
 extension ___VARIABLE_sceneName:identifier___Router: ___VARIABLE_sceneName:identifier___RouterProtocol {
-
 
     // MARK: - Navigation
 

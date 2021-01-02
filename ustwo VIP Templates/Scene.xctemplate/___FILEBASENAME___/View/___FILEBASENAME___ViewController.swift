@@ -21,8 +21,7 @@ final class ___VARIABLE_sceneName:identifier___ViewController: UIViewController 
 
     var output: ___VARIABLE_sceneName:identifier___ViewControllerOutput!
     var router: ___VARIABLE_sceneName:identifier___RouterProtocol!
-
-
+ 
     // MARK: - Initializers
 
     init(configurator: ___VARIABLE_sceneName:identifier___Configurator = ___VARIABLE_sceneName:identifier___Configurator.sharedInstance) {
@@ -38,16 +37,14 @@ final class ___VARIABLE_sceneName:identifier___ViewController: UIViewController 
 
         configure()
     }
-
-
+ 
     // MARK: - Configurator
 
     private func configure(configurator: ___VARIABLE_sceneName:identifier___Configurator = ___VARIABLE_sceneName:identifier___Configurator.sharedInstance) {
 
         configurator.configure(viewController: self)
     }
-
-
+ 
     // MARK: - View lifecycle
 
     override func viewDidLoad() {
@@ -56,28 +53,21 @@ final class ___VARIABLE_sceneName:identifier___ViewController: UIViewController 
 
         doSomethingOnLoad()
     }
-
-
+ 
     // MARK: - Load data
 
     func doSomethingOnLoad() {
-
-        // TODO: Ask the Interactor to do some work
-
         output.doSomething()
     }
 }
-
-
+ 
 // MARK: - ___VARIABLE_sceneName:identifier___PresenterOutput
 
 extension ___VARIABLE_sceneName:identifier___ViewController: ___VARIABLE_sceneName:identifier___ViewControllerInput {
-
-
+ 
     // MARK: - Display logic
 
     func displaySomething(viewModel: ___VARIABLE_sceneName:identifier___ViewModel) {
-
-        // TODO: Update UI
+        
     }
 }

@@ -22,7 +22,6 @@ final class ___VARIABLE_sceneName:identifier___Interactor {
     let output: ___VARIABLE_sceneName:identifier___InteractorOutput
     let worker: ___VARIABLE_sceneName:identifier___Worker
 
-
     // MARK: - Initializers
 
     init(output: ___VARIABLE_sceneName:identifier___InteractorOutput, worker: ___VARIABLE_sceneName:identifier___Worker = ___VARIABLE_sceneName:identifier___Worker()) {
@@ -32,21 +31,15 @@ final class ___VARIABLE_sceneName:identifier___Interactor {
     }
 }
 
-
 // MARK: - ___VARIABLE_sceneName:identifier___InteractorInput
 
 extension ___VARIABLE_sceneName:identifier___Interactor: ___VARIABLE_sceneName:identifier___ViewControllerOutput {
-
 
     // MARK: - Business logic
 
     func doSomething() {
 
-        // TODO: Create some Worker to do the work
-
         worker.doSomeWork()
-
-        // TODO: Pass the result to the Presenter
 
         output.presentSomething()
     }

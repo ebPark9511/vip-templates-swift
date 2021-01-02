@@ -21,7 +21,6 @@ final class ___VARIABLE_sceneName:identifier___Presenter {
 
     private(set) weak var output: ___VARIABLE_sceneName:identifier___PresenterOutput!
 
-
     // MARK: - Initializers
 
     init(output: ___VARIABLE_sceneName:identifier___PresenterOutput) {
@@ -29,19 +28,14 @@ final class ___VARIABLE_sceneName:identifier___Presenter {
         self.output = output
     }
 }
-
-
+ 
 // MARK: - ___VARIABLE_sceneName:identifier___PresenterInput
 
 extension ___VARIABLE_sceneName:identifier___Presenter: ___VARIABLE_sceneName:identifier___PresenterInput {
-
-
+ 
     // MARK: - Presentation logic
 
     func presentSomething() {
-
-        // TODO: Format the response from the Interactor and pass the result back to the View Controller
-
         let viewModel = ___VARIABLE_sceneName:identifier___ViewModel()
         output.displaySomething(viewModel: viewModel)
     }

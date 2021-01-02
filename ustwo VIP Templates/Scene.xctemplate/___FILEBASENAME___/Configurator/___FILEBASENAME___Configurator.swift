@@ -10,11 +10,9 @@ import UIKit
 
 final class ___VARIABLE_sceneName:identifier___Configurator {
 
-
     // MARK: - Singleton
 
     static let sharedInstance: ___VARIABLE_sceneName:identifier___Configurator = ___VARIABLE_sceneName:identifier___Configurator()
-
 
     // MARK: - Configuration
 
